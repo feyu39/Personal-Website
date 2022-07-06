@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+ul{
+    padding: 0;
+    font-size: 22px;
+    margin-left: 12%;
+}
+
+li{
+    padding: 15px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.heading{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.right-heading{
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+}
+
+.title{
+    font-size: 40px;
+    font-weight: bolder;
+    background: #228C22;
+    background: linear-gradient(to right, #228C22 0%, #145314 31%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
