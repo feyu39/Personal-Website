@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Felix Yu's Personal Website</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css"
+    /></noscript>
+  <link rel="stylesheet" href="./Felix Yu&#39;s Personal Website_files/main.css"></head>
+  <body class="index">
+    <div id="page-wrapper">
+      <!-- Header -->
+      <header id="header" class="reveal">
+        <h1 id="logo">
+          <a href="http://127.0.0.1:5500/index.html">Felix Yu<span></span></a>
+        </h1>
+        <nav id="nav">
+          <ul>
+            <li class="current" style="white-space: nowrap;"><a href="http://127.0.0.1:5500/index.html">Home</a></li>
+            <li class="submenu opener" style="user-select: none; cursor: pointer; white-space: nowrap;">
+              <a href="http://127.0.0.1:5500/index.html#">Layouts</a>
+              
+            <ul class="" style="user-select: none; display: none; position: absolute;">
+                <li style="white-space: nowrap;"><a href="http://127.0.0.1:5500/left-sidebar.html" style="display: block;">Data Science Projects</a></li>
+                <li style="white-space: nowrap;"><a href="http://127.0.0.1:5500/right-sidebar.html" style="display: block;">Internship Work</a></li>
+                <li style="white-space: nowrap;"><a href="http://127.0.0.1:5500/no-sidebar.html" style="display: block;">Resume and Classes</a></li>
+                <li style="white-space: nowrap;"><a href="http://127.0.0.1:5500/contact.html" style="display: block;">Contact</a></li>
+              </ul></li>
+            <li style="white-space: nowrap;"><a href="http://127.0.0.1:5500/index.html#" class="button primary">Sign Up</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- Banner -->
+      <section id="banner">
+        <!--
+						".inner" is set up as an inline-block so it automatically expands
+						in both directions to fit whatever's inside it. This means it won't
+						automatically wrap lines, so be sure to use line breaks where
+						appropriate (<br />).
+					-->
+        <div class="inner">
+          <header>
+            <h2>Felix Yu</h2>
+          </header>
+          <p>
+            Hi! I'm Felix, a senior at the University of Michigan studying
+            Computer Science and Earth Science.
+          </p>
+        </div>
+      </section>
+
+      <!-- About Me -->
+      <article id="main">
+        <header class="special container">
+          <img src="./Felix Yu&#39;s Personal Website_files/website-profile-pic.JPG" class="profile-pic" alt="Picture of Felix Yu standing on a balcony">
+          <h2>About Me</h2>
+          <p>
+            I'm originally from Fort Collins, Colorado. As an outdoor
+            enthusiast, I enjoy skiing, surfing, hiking, and staying active. I'm
+            interested in developing technology to help our climate in various
+            sectors like renewables, carbon sequestration, reforestration, and
+            ocean technology. I enjoy building stories with data and have used
+            machine learning in a variety of ways working at various labs. Check
+            out my projects and work experience pages to learn more!
+          </p>
+        </header>
+
+        <!-- Project Highlights -->
+        <section class="wrapper style1 container special">
+          <h2>Current Work</h2>
+          <div class="row">
+            <div class="col-4 col-12-narrower">
+              <section>
+                <div class="flip-card" onclick="toggleFlip(this)">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                      <img src="./Felix Yu&#39;s Personal Website_files/neon-project-pic.png" alt="Picture of a full-waveform lidar graph">
+                      <h3>Machine Learning Analysis of LiDAR Wetlands Data</h3>
+                    </div>
+                    <div class="flip-card-back">
+                      <p>
+                        Developing novel machine learning methods to analyze
+                        full-waveform LiDAR data flown from the National
+                        Ecological Observatory to better estimate wetland carbon
+                        biomass stocks.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+
+            <div class="col-4 col-12-narrower">
+              <section>
+                <div class="flip-card" onclick="toggleFlip(this)">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                      <img src="./Felix Yu&#39;s Personal Website_files/GOES-Image.png" alt="Picture of the GOES Satellite Observer over Earth">
+                      <h3>Neural Network Analysis of Snow Albedo Data</h3>
+                    </div>
+                    <div class="flip-card-back">
+                      <p>
+                        Programmed a convolutional neural network using
+                        Tensorflow and Python to downscale GOES-R satellite
+                        Albedo data and images to improve snowmelt forecasting.
+                        My work supported an AGU 2024 paper called "Observations
+                        of super-unit albedo in complex terrain".
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+
+            <div class="col-4 col-12-narrower">
+              <section>
+                <div class="flip-card" onclick="toggleFlip(this)">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                      <img src="./Felix Yu&#39;s Personal Website_files/national-parks-pic.png" alt="Picture of a graph of biodiversity levels at each national park">
+                      <h3>Biodiversity Analysis of National Parks</h3>
+                    </div>
+                    <div class="flip-card-back">
+                      <p>
+                        Evaluated species biodiversity data in US National Parks
+                        using Matplotlib and Pandas, flagging certain parks with
+                        high threatened species levels.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+        </section>
+
+        <!-- Three -->
+        <section class="wrapper style3 container special">
+          <header class="major">
+            <h2>Work Experience</h2>
+          </header>
+
+          <div class="row">
+            <div class="col-6 col-12-narrower">
+              <section>
+                <a href="https://www.stryker.com/us/en/portfolios/orthopaedics/joint-replacement/mako-robotic-arm-assisted-surgery.html" class="image featured"><img src="./Felix Yu&#39;s Personal Website_files/Stryker-pic.jpg" alt="Picture of Felix manipulating a sawbone for Stryker knee robot surgery"></a>
+                <header>
+                  <h3>Stryker Software Engineering</h3>
+                </header>
+                <p>
+                  Worked on modernizing kinematics algorithms in C++ for a knee
+                  surgical robot and its application.
+                </p>
+              </section>
+            </div>
+            <div class="col-6 col-12-narrower">
+              <section>
+                <a href="https://climatesciences.lbl.gov/" class="image featured"><img src="./Felix Yu&#39;s Personal Website_files/Berkeley-lab-pic.jpg" alt="Felix standing next to his poster showcasing Albedo work"></a>
+                <header>
+                  <h3>
+                    Lawrence Berkeley National Lab Environmental Data Scientist
+                  </h3>
+                </header>
+                <p>
+                  Analyzed albedo data using machine learning to improve climate
+                  models.
+                </p>
+              </section>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-6 col-12-narrower">
+              <section>
+                <a href="http://127.0.0.1:5500/index.html#" class="image featured"><img src="./Felix Yu&#39;s Personal Website_files/Lincoln-Automation.jpg" alt=""></a>
+                <header>
+                  <h3>Lincoln Electric Automation Software Engineering</h3>
+                </header>
+                <p>
+                  Sed tristique purus vitae volutpat commodo suscipit amet sed
+                  nibh. Proin a ullamcorper sed blandit. Sed tristique purus
+                  vitae volutpat commodo suscipit ullamcorper sed blandit lorem
+                  ipsum dolore.
+                </p>
+              </section>
+            </div>
+            <div class="col-6 col-12-narrower">
+              <section>
+                <a href="http://127.0.0.1:5500/index.html#" class="image featured"><img src="./Felix Yu&#39;s Personal Website_files/Lilani-Plants.JPG" alt=""></a>
+                <header>
+                  <h3>Lilani Plants</h3>
+                </header>
+                <p>
+                  Sed tristique purus vitae volutpat commodo suscipit amet sed
+                  nibh. Proin a ullamcorper sed blandit. Sed tristique purus
+                  vitae volutpat commodo suscipit ullamcorper sed blandit lorem
+                  ipsum dolore.
+                </p>
+              </section>
+            </div>
+          </div>
+
+          <footer class="major">
+            <ul class="buttons">
+              <li><a href="http://127.0.0.1:5500/index.html#" class="button">See More</a></li>
+            </ul>
+          </footer>
+        </section>
+      </article>
+
+      <!-- Footer -->
+      <footer id="footer">
+        <ul class="icons">
+          <li>
+            <a href="http://127.0.0.1:5500/index.html#" class="icon brands circle fa-twitter"><span class="label">Twitter</span></a>
+          </li>
+          <li>
+            <a href="http://127.0.0.1:5500/index.html#" class="icon brands circle fa-facebook-f"><span class="label">Facebook</span></a>
+          </li>
+          <li>
+            <a href="http://127.0.0.1:5500/index.html#" class="icon brands circle fa-google-plus-g"><span class="label">Google+</span></a>
+          </li>
+          <li>
+            <a href="http://127.0.0.1:5500/index.html#" class="icon brands circle fa-github"><span class="label">Github</span></a>
+          </li>
+          <li>
+            <a href="http://127.0.0.1:5500/index.html#" class="icon brands circle fa-dribbble"><span class="label">Dribbble</span></a>
+          </li>
+        </ul>
+
+        <ul class="copyright">
+          <li>© Untitled</li>
+          <li>Design: <a href="http://html5up.net/">HTML5 UP</a></li>
+        </ul>
+      </footer>
+    </div>
+
+    <!-- Scripts -->
+    <script src="./Felix Yu&#39;s Personal Website_files/jquery.min.js"></script>
+    <script src="./Felix Yu&#39;s Personal Website_files/jquery.dropotron.min.js"></script>
+    <script src="./Felix Yu&#39;s Personal Website_files/jquery.scrolly.min.js"></script>
+    <script src="./Felix Yu&#39;s Personal Website_files/jquery.scrollex.min.js"></script>
+    <script src="./Felix Yu&#39;s Personal Website_files/browser.min.js"></script>
+    <script src="./Felix Yu&#39;s Personal Website_files/breakpoints.min.js"></script>
+    <script src="./Felix Yu&#39;s Personal Website_files/util.js"></script>
+    <script src="./Felix Yu&#39;s Personal Website_files/main.js"></script><ul class="dropotron level-0" style="user-select: none; display: none; position: absolute; z-index: 1000;">
+                <li style="white-space: nowrap;"><a href="http://127.0.0.1:5500/left-sidebar.html" style="display: block;">Data Science Projects</a></li>
+                <li style="white-space: nowrap;"><a href="http://127.0.0.1:5500/right-sidebar.html" style="display: block;">Internship Work</a></li>
+                <li style="white-space: nowrap;"><a href="http://127.0.0.1:5500/no-sidebar.html" style="display: block;">Resume and Classes</a></li>
+                <li style="white-space: nowrap;"><a href="http://127.0.0.1:5500/contact.html" style="display: block;">Contact</a></li>
+              </ul><div id="navButton"><a href="http://127.0.0.1:5500/index.html#navPanel" class="toggle"></a></div><div id="navPanel"><nav><a class="link depth-0" href="http://127.0.0.1:5500/index.html" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="indent-0"></span>Home</a><a class="link depth-0" href="http://127.0.0.1:5500/index.html#" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="indent-0"></span>Layouts</a><a class="link depth-1" href="http://127.0.0.1:5500/left-sidebar.html" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="indent-1"></span>Data Science Projects</a><a class="link depth-1" href="http://127.0.0.1:5500/right-sidebar.html" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="indent-1"></span>Internship Work</a><a class="link depth-1" href="http://127.0.0.1:5500/no-sidebar.html" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="indent-1"></span>Resume and Classes</a><a class="link depth-1" href="http://127.0.0.1:5500/contact.html" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="indent-1"></span>Contact</a><a class="link depth-0" href="http://127.0.0.1:5500/index.html#" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="indent-0"></span>Sign Up</a></nav></div>
+  <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>

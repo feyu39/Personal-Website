@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Felix Yu's Personal Website</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript
+      ><link rel="stylesheet" href="assets/css/noscript.css"
+    /></noscript>
+  </head>
+  <body class="index is-preload">
+    <div id="page-wrapper">
+      <!-- Header -->
+      <header id="header" class="alt">
+        <h1 id="logo">
+          <a href="index.html">Felix Yu<span></span></a>
+        </h1>
+        <nav id="nav">
+          <ul>
+            <li class="current"><a href="index.html">Home</a></li>
+            <li class="submenu">
+              <a href="#">Pages</a>
+              <ul>
+                <li>
+                  <a href="data-science-projects.html">Data Science Projects</a>
+                </li>
+                <li><a href="resume.html">Resume and Classes</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- Banner -->
+      <section id="banner">
+        <div class="inner">
+          <header>
+            <h2>Felix Yu</h2>
+          </header>
+          <p>
+            Hi! I'm Felix, a senior at the University of Michigan studying
+            Computer Science and Earth Science.
+          </p>
+        </div>
+      </section>
+
+      <!-- About Me -->
+      <article id="main">
+        <header class="special container">
+          <img
+            src="images/website-profile-pic.JPG"
+            class="profile-pic"
+            alt="Picture of Felix Yu standing on a balcony"
+          />
+          <h2>About Me</h2>
+          <p>
+            I'm originally from Fort Collins, Colorado. As an outdoor
+            enthusiast, I enjoy skiing, surfing, hiking, and staying active. I'm
+            interested in developing technology to help our climate in various
+            sectors like renewables, carbon sequestration, reforestration, and
+            ocean technology. I enjoy building stories with data and have used
+            machine learning in a variety of ways working at various labs. Check
+            out my projects and work experience pages to learn more!
+          </p>
+        </header>
+
+        <!-- Project Highlights -->
+        <section class="wrapper style1 container special">
+          <h2>Current Work</h2>
+          <div class="row">
+            <div class="col-4 col-12-narrower">
+              <section>
+                <div class="flip-card" onclick="toggleFlip(this)">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                      <img
+                        src="images/neon-project-pic.png"
+                        alt="Picture of a full-waveform lidar graph"
+                      />
+                      <h3>Machine Learning Analysis of LiDAR Wetlands Data</h3>
+                    </div>
+                    <div class="flip-card-back">
+                      <p>
+                        Developing novel machine learning methods to analyze
+                        full-waveform LiDAR data flown from the National
+                        Ecological Observatory to better estimate wetland carbon
+                        biomass stocks.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+
+            <div class="col-4 col-12-narrower">
+              <section>
+                <div class="flip-card" onclick="toggleFlip(this)">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                      <img
+                        src="images/GOES-Image.png"
+                        alt="Picture of the GOES Satellite Observer over Earth"
+                      />
+                      <h3>Neural Network Analysis of Snow Albedo Data</h3>
+                    </div>
+                    <div class="flip-card-back">
+                      <p>
+                        Programmed a convolutional neural network using
+                        Tensorflow and Python to downscale GOES-R satellite
+                        Albedo data and images to improve snowmelt forecasting.
+                        My work supported an AGU 2024 paper called "Observations
+                        of super-unit albedo in complex terrain".
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+
+            <div class="col-4 col-12-narrower">
+              <section>
+                <div class="flip-card" onclick="toggleFlip(this)">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                      <img
+                        src="images/national-parks-pic.png"
+                        alt="Picture of a graph of biodiversity levels at each national park"
+                      />
+                      <h3>Biodiversity Analysis of National Parks</h3>
+                    </div>
+                    <div class="flip-card-back">
+                      <p>
+                        Evaluated species biodiversity data in US National Parks
+                        using Matplotlib and Pandas, flagging certain parks with
+                        high threatened species levels.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+        </section>
+
+        <!-- Three -->
+        <section class="wrapper style3 container special">
+          <header class="major">
+            <h2>Work Experience</h2>
+          </header>
+
+          <div class="row">
+            <div class="col-6 col-12-narrower">
+              <section>
+                <a
+                  href="https://www.stryker.com/us/en/portfolios/orthopaedics/joint-replacement/mako-robotic-arm-assisted-surgery.html"
+                  class="image featured"
+                  ><img
+                    src="images/Stryker-pic.jpg"
+                    alt="Picture of Felix manipulating a sawbone for Stryker knee robot surgery"
+                /></a>
+                <header>
+                  <h3>Stryker Software Engineering</h3>
+                </header>
+                <p>
+                  Worked on modernizing kinematics algorithms in C++ for a knee
+                  surgical robot and its application
+                </p>
+              </section>
+            </div>
+            <div class="col-6 col-12-narrower">
+              <section>
+                <a
+                  href="https://climatesciences.lbl.gov/"
+                  class="image featured"
+                  ><img
+                    src="images/Berkeley-lab-pic.jpg"
+                    alt="Felix standing next to his poster showcasing Albedo work"
+                /></a>
+                <header>
+                  <h3>Lawrence Berkeley National Lab</h3>
+                </header>
+                <p>
+                  Analyzed albedo data using machine learning to improve climate
+                  models as an environmental data scientist
+                </p>
+              </section>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-6 col-12-narrower">
+              <section>
+                <a
+                  href="https://www.lincolnelectric.com/en/Products/Automation/Collaborative-Welding"
+                  class="image featured"
+                  ><img
+                    src="images/Lincoln-Automation.jpg"
+                    alt="Picture of Lincoln Electric Autonomous Welding robots."
+                /></a>
+                <header>
+                  <h3>Lincoln Electric Automation Software</h3>
+                </header>
+                <p>
+                  Programmed application software using Javascript and Vue.js to
+                  simulate autonomous welding robots
+                </p>
+              </section>
+            </div>
+            <div class="col-6 col-12-narrower">
+              <section>
+                <a href="https://www.lilaniplants.com/" class="image featured"
+                  ><img
+                    src="images/Lilani-Plants.JPG"
+                    alt="Picture of a Lilani Plants plant pot with its soil moisture sensor."
+                /></a>
+                <header>
+                  <h3>Lilani Plants</h3>
+                </header>
+                <p>
+                  Built self-watering plant pots that watered smartly based on
+                  soil moisture and connected via bluetooth to a Swift-based app
+                </p>
+              </section>
+            </div>
+          </div>
+
+          <footer class="major">
+            <ul class="buttons">
+              <li><a href="resume.html" class="button">Learn More</a></li>
+            </ul>
+          </footer>
+        </section>
+      </article>
+
+      <!-- Footer -->
+      <footer id="footer">
+        <ul class="icons">
+          <li>
+            <a
+              href="https://github.com/feyu39"
+              class="icon brands circle fa-github"
+              ><span class="label">Github</span></a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/felixwyu/"
+              class="icon brands circle fa-linkedin"
+              ><span class="label">LinkedIn</span></a
+            >
+          </li>
+        </ul>
+
+        <ul class="copyright">
+          <li>&copy; Felix Yu 2025 with help from HTML5UP</li>
+        </ul>
+      </footer>
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.dropotron.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
