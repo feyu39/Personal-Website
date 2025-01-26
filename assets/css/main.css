@@ -1917,17 +1917,6 @@ h2 {
 		border: 0;
 		position: relative;
 	}
-
-		.image:before {
-			background: url("images/overlay.png");
-			content: '';
-			height: 100%;
-			left: 0;
-			position: absolute;
-			top: 0;
-			width: 100%;
-		}
-
 		.image.fit {
 			display: block;
 		}
@@ -1954,6 +1943,14 @@ h2 {
 				aspect-ratio: 18/13;
 				object-fit: cover;
 			}
+
+			.image.featured.parks img {
+				display: block;
+				width: 100%;
+				aspect-ratio: 1.75;
+				object-fit: cover;
+			}
+
 			.resume img {
 				display: block;
 				margin: 0 0 2em 0;
